@@ -8,7 +8,7 @@ It has Laravel dependencies since it uses the Cache facade to remember the array
 - Place PassPhrase.php and wordlist.txt in this folder
 - Call the passPhrase() function with the number of words and an optional seperator
 
-### Tinker;
+## Testing with Tinker
 ```
 Psy Shell v0.10.4 (PHP 7.3.11 — cli) by Justin Hileman
 >>> (new App\Utility\PassPhrase)->passPhrase(4)
